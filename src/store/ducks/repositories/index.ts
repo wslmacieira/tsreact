@@ -1,11 +1,8 @@
 import { Reducer } from 'redux';
-import { action } from 'typesafe-actions';
 import { RepositoriesState, RepositoriesTypes } from './types';
 
 const INITIAL_STATE: RepositoriesState = {
-  data: [
-    { id: 1, name: 'RocketSeat' },
-  ],
+  data: [],
   error: false,
   loading: false,
 };
